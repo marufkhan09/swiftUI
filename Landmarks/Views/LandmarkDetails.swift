@@ -44,5 +44,5 @@ struct LandmarkDetails: View {
 }
 
 #Preview {
-    LandmarkDetails(landmark: landmarks[0])
+    LandmarkDetails(landmark: ModelData().landmarks[0])
 }
